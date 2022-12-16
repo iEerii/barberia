@@ -83,3 +83,13 @@ nav a:hover {
     font-weight: 700;
     margin-top: 10px;
 }
+
+footer {
+    background: url(/img/bg.jpg);
+    color: lightgray;
+    font-family: 'Roboto Slab', serif;
+    font-size: 10px;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}

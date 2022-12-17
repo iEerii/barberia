@@ -103,7 +103,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-family: 'Roboto Slab', serif;
     font-size: 20px;

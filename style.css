@@ -122,7 +122,7 @@ form label, form legend {
 }
 
 .enviar {
-    background: orange;
+    background: rgb(255, 191, 0);
     border: none;
     border-radius: 5px;
     color: white;
@@ -131,10 +131,27 @@ form label, form legend {
     font-size: 18px;
     font-weight: 500;
     padding: 15px 0;
-    transition: 1s ease;
+    transition: 1s all;
     width: 40%;
 }
 
 .enviar:hover {
-    background: darkorange;
+    background: rgb(255, 112, 0);
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: rgb(101, 100, 124);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 500;
+}
+
+td, th {
+    border: black 1px solid;
+    padding: 8px 15px;
 }

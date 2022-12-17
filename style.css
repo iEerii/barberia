@@ -120,3 +120,21 @@ form label, form legend {
 .checkbox {
     margin: 20px 0;
 }
+
+.enviar {
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0;
+    transition: 1s ease;
+    width: 40%;
+}
+
+.enviar:hover {
+    background: darkorange;
+}

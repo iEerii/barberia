@@ -155,3 +155,19 @@ td, th {
     border: black 1px solid;
     padding: 8px 15px;
 }
+
+/* CSS para pagina principal*/
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal p {
+
+}

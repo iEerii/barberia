@@ -162,6 +162,7 @@ td, th {
 }
 
 .titulo-principal {
+    clear: left;
     font-family: 'Roboto Slab', serif;
     font-size: 2em;
     margin: 0 0 1em;
@@ -169,5 +170,23 @@ td, th {
 }
 
 .principal p {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 1em;
+}
 
+.principal strong {
+    color: rgb(255, 191, 0);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.utensilios {
+    float: left;
+    margin: 0 20px;
+    width: 120px;
+    
+}
+
+.imgDiferencial {
+    width: 60%;
 }

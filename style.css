@@ -94,11 +94,6 @@ footer {
     text-align: center;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -161,6 +156,13 @@ td, th {
     width: 100%;
 }
 
+.principal {
+    background: #fefefe;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 940px;
+}
+
 .titulo-principal {
     clear: left;
     font-family: 'Roboto Slab', serif;
@@ -173,6 +175,7 @@ td, th {
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     margin: 0 0 1em;
+    
 }
 
 .principal strong {
@@ -188,6 +191,7 @@ td, th {
 }
 
 .mapa {
+    background: linear-gradient(#fefefe, #E0DEDE);
     padding: 3em 0;
 }
 
@@ -198,7 +202,35 @@ td, th {
     text-align: center;
 }
 
-.imgDiferencial {
+.mapa-contenido {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.diferenciales {
+    background: #E0DEDE;
+    padding: 3em 0;
+}
+
+.contenido-diferenciales {
+    display: flex;
+    margin: 0 auto;
+    width: 640px;
+}
+
+.lista-diferenciales {
+    width: 40%;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:first-child {
+    font-weight: 700;
+}
+
+.imagen-diferenciales {
     width: 60%;
 }
 
